@@ -81,7 +81,7 @@ macro_rules! insert_asm {
 #[macro_export]
 macro_rules! turtle_set_raw {
     ($block:literal) => {
-        insert_asm!(concat!("execute at @e[tag=turtle] run setblock ~ ~ ~ ", $block))
+        $crate::insert_asm!(concat!("execute at @e[tag=turtle] run setblock ~ ~ ~ ", $block))
     }
 }
 
