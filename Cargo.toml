@@ -1,6 +1,6 @@
 [package]
 name = "langcraft_api"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Carson Swoveland <sciencedude2003@gmail.com>"]
 edition = "2018"
 description = "Interface for programs for use with Langcraft"
